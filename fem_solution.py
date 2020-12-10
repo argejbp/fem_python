@@ -2,7 +2,7 @@ import numpy as np
 import scipy as sc
 
 def steady_state_solution(KG, FG, active_nodes):
-    sol = np.linealg.solve(KG[active_nodes[:, None], active_nodes], FG[active_nodes, 0])
+    sol = np.linealg.solve(KG[active_nodes[:, None], active_nodes], FG[active_nodes, :])
     return sol
 
 def modal_solver(KG, MG, active_nodes):
