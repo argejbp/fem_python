@@ -38,9 +38,9 @@ def fin_element(k, h, A, P, xi, yi, xj, yj):
     ke = k*A/L*np.array([[1, -1], [-1, 1]]) + h*P*L/6*np.array([[2, 1], [1, 2]])
     return ke
 
-def fin_element_lv(h, To, A, P, xi, yi, xj, yj):
+def fin_element_lv(h, To, P, xi, yi, xj, yj):
     L = math.sqrt(((xi - xj)**2 + (yi - yj)**2))
-    fe = h*To*P*L/(2*A)*np.array([[1], [1]])
+    fe = h*To*P*L/(2)*np.array([[1], [1]])
     return fe 
 
 def conduction_element(k, A, xi, yi, xj, yj):
