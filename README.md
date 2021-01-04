@@ -1,5 +1,5 @@
 # fem_python
-Finite Element functions in Python for 1D elements
+Finite Element functions in Python for 1D elements (In progress)
 
 These are Python files for solving Finite Element Method problems with 1D Elements (or line elements)
 The elements available are: (10/12/2020)
