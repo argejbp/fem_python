@@ -26,8 +26,8 @@ def thermal_boundary_conditions(bc, Elements, KG, FG):
 
         elif tb == 4:   #Heat generation (value1 = Heat generation; value2 = Volume)
             element = bc[i, 3] - 1
-            nodei = Elements[element, 1]
-            nodej = Elements[element, 2]
+            nodei = Elements[element, 1] - 1
+            nodej = Elements[element, 2] - 1
 
             FG[nodei, 0] = FG[nodei, 0] + value1*value2/2
             FG[nodej, 0] = FG[nodej, 0] + value1*value2/2
