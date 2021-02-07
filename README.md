@@ -24,7 +24,7 @@ Uploaded files:
 07/02/2021 Update
 
 Uploaded files:
-  - femp_python1D.pdf: It's a file describing the stiffness matrix of every element in matrix_assembly_1D.py
+  - fem_python1D.pdf: It's a file describing the stiffness matrix of every element in matrix_assembly_1D.py
   
 A few errors were captured in matrix_assembly_1D.py during tests of Heat Transfer modules, these were modified in the uploaded file
 
