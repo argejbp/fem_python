@@ -21,5 +21,10 @@ Uploaded files:
   - matrix_assembly_1D.py: It builds up the Stiffness matrix and Load vector (At this time, heat Transfer only)
   - boundary_conditions_1D_elements.py: Modifies the stiffness matrix and load vector to apply boundary conditions (At this time, heat Transfer only)
 
+07/02/2021 Update
 
+Uploaded files:
+  - femp_python1D.pdf: It's a file describing the stiffness matrix of every element in matrix_assembly_1D.py
+  
+A few errors were captured in matrix_assembly_1D.py during tests of Heat Transfer modules, these were modified in the uploaded file
 
