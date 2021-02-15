@@ -28,3 +28,13 @@ Uploaded files:
   
 A few errors were captured in matrix_assembly_1D.py during tests of Heat Transfer modules, these were modified in the uploaded file
 
+14/02/2021 Update
+
+Uploaded files: 
+  - "Heat Transfer example exercises.pdf": It's a file describing two example problemd of 1D Heat Transfer solved by the Finite Element Method, using the files uploaded   here
+  - problem1.py: First example explained in "Heat Transfer example exercises.pdf"
+  - problem2.py: Second example explained in "Heat Transfer example exercises.pdf"
+  
+  
+  
+  
