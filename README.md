@@ -35,6 +35,9 @@ Uploaded files:
   - problem1.py: First example explained in "Heat Transfer example exercises.pdf"
   - problem2.py: Second example explained in "Heat Transfer example exercises.pdf"
   
+03/07/2021 Update
+It's been a while. Here's a new file:
+  - "stiffness_matrices_2D_Elements.py": It's a file with functions to calculate stiffness matrix of: 2D Triangle element (for Solid Mechanics problems and Heat Transfer problems) and 3D Axisymmetric Triangle Element (for Heat Transfer)
   
   
   
