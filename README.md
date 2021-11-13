@@ -38,6 +38,14 @@ Uploaded files:
 03/07/2021 Update
 It's been a while. Here's a new file:
   - "stiffness_matrices_2D_Elements.py": It's a file with functions to calculate stiffness matrix of: 2D Triangle element (for Solid Mechanics problems and Heat Transfer problems) and 3D Axisymmetric Triangle Element (for Heat Transfer)
+
+13/11/2021 Update
+I added a function called "Euler_Bernoulli_3DFrame()" that calculates the stiffness matrix of a 3D frame element with:
+- Axial extension (Bar)
+- Bernoulli Beam assumption in both XY plane and XZ plane
+- Torsion (plane YZ)
+
+Soon the global matrix assembly module for Solid Mechanics elements will be added :)
   
   
   
